@@ -1,4 +1,5 @@
 # Pokémon Storage System - An Educational Game
+
 <p align="center">
    <img src="https://static.vecteezy.com/system/resources/previews/027/127/571/non_2x/pokemon-logo-pokemon-icon-transparent-free-png.png" width="500" height="500"> <!-- Pokémon Logo -->
 
@@ -14,7 +15,7 @@ This project demonstrates several key **Object-Oriented Programming (OOP)** prin
 |-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Encapsulation** | The **`Pokemon`** class encapsulates attributes such as name, types, level, and held items, while using methods (getters and setters) to control access. |
 | **Inheritance**   | The **`Pokemon`** class serves as a base for other Pokémon types, allowing for easy extension and customization for more specific behaviors.          |
-| **Polymorphism**  | The **`SpecialPokemon`** class demonstrates polymorphism by overriding the `toString` method, displaying a Pokémon’s unique special abilities.    |
+| **Polymorphism**  | Polymorphism is demonstrated in this system with the **`SpecialPokemon`** class, which extends the base **`Pokemon`** class. The `toString` method is overridden in the **`SpecialPokemon`** subclass to include a **special ability** attribute, which allows for different behaviors depending on the actual object type. |
 | **Abstraction**   | The **`Pokemon`** class is abstract, providing a blueprint for creating different types of Pokémon, focusing on their storage and management.         |
 
 <p align="center">
@@ -44,7 +45,7 @@ The **Pokémon Storage System** allows players to manage their Pokémon through 
 |---------------------------|-----------------------------------------------------------------------------------------------------------|
 | **View Pokémon Storage**  | Displays the current contents of the Pokémon boxes (up to 2 Pokémon per box).                              |
 | **Deposit Pokémon**       | Allows the user to deposit a Pokémon from their party into one of the boxes, with a capacity of 2 Pokémon per box. |
-| **Withdraw Pokémon**      | Lets the user withdraw a Pokémon from a box and add it back to the party, with a maximum of 6 Pokémon in the party. |
+| **Withdraw Pokémon**      | Lets the user withdraw a Pokémon from the box and add it back to the party, with a maximum of 6 Pokémon in the party. |
 | **Deposit Item**          | Users can assign an item to a Pokémon in the party and transfer it to a Pokémon in the storage boxes.      |
 | **Withdraw Item**         | Lets the user withdraw an item from a Pokémon in the storage box. The item can then be assigned to a Pokémon in the party or discarded. |
 | **Exit**                  | Exits the program after a prompt confirming exit.                                                         |
@@ -69,5 +70,17 @@ The **Pokémon Storage System** allows players to manage their Pokémon through 
 
 <p align="center">
    <img src="https://pa1.narvii.com/6201/fac18f22f6333faa69d85712e83266dedaa504f0_hq.gif">  <!-- Pokémon Storage Animation -->
+
+---
+
+## Special Pokémon and Special Abilities:
+In addition to basic Pokémon management, the system also demonstrates the use of **polymorphism** with the **`SpecialPokemon`** class. 
+
+- **`SpecialPokemon`** is a subclass that extends the base **`Pokemon`** class.
+- It introduces a unique attribute, the **special ability**, which can represent various special powers a Pokémon might possess (e.g., "Fire Blast", "Thunder Shock").
+- The **`toString`** method is overridden in **`SpecialPokemon`** to display the special ability of each Pokémon, differentiating it from regular Pokémon. This allows for different behaviors based on the specific Pokémon type.
+
+For example:
+- A **`SpecialPokemon`** with a special ability will show the ability in the output, making it clear that this Pokémon is unique compared to regular ones in the system.
 
 ---
