@@ -74,6 +74,6 @@ The **Pokémon Storage System** allows players to manage their Pokémon through 
 | **Depositing & Withdrawing Pokémon** | You can deposit and withdraw Pokémon from your party into the storage system while maintaining balance and organization. |
 | **Item Management**       | Items can be assigned to Pokémon, and the game allows swapping items between Pokémon in your party and storage, emphasizing efficient resource use. |
 
-<img src="https://pa1.narvii.com/6201/fac18f22f6333faa69d85712e83266dedaa504f0_hq.gif" width="100" height="100">  <!-- Pokémon Storage Animation -->
+<img src="https://pa1.narvii.com/6201/fac18f22f6333faa69d85712e83266dedaa504f0_hq.gif">  <!-- Pokémon Storage Animation -->
 
 ---
