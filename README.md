@@ -41,7 +41,7 @@ Key ways this project integrates SDG 12:
 ### What the Program Does:
 The **Pokémon Storage System** allows players to manage their Pokémon through a **virtual Pokémon PC system**. The game is organized into three main actions: **Depositing Pokémon**, **Withdrawing Pokémon**, and **Managing Items**.
 
-![Pokéball Icon](https://upload.wikimedia.org/wikipedia/commons/5/56/Poké_Ball.png)  <!-- Pokéball Icon -->
+![Pokéball Icon](https://freepngimg.com/thumb/pokemon/20708-7-pokeball-hd.png)  <!-- Pokéball Icon -->
 
 - **View Pokémon Storage**: Displays the current contents of the Pokémon boxes (up to 2 Pokémon per box).
   
