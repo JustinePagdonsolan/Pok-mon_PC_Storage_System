@@ -55,6 +55,13 @@ This project is aligned with **SDG 12: Responsible Consumption and Production**,
 ---
 
 ## Instructions for Running the Program
+git clone https://github.com/your-repository/PokemonStorageSystem.git
+cd PokemonStorageSystem/src
+
+javac main/PokemonPCSystem.java models/Pokemon.java models/SpecialPokemon.java storage/PokemonStorage.java utils/*.java
+
+java main.PokemonPCSystem
+
 
 ### What the Program Does
 The **Pokémon Storage System** allows players to manage their Pokémon through a **virtual Pokémon PC system**. The game is organized into three main actions: **Depositing Pokémon**, **Withdrawing Pokémon**, and **Managing Items**.
