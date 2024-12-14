@@ -91,7 +91,9 @@ In addition to basic Pokémon management, the system also demonstrates the use o
 - The **`toString`** method is overridden in **`SpecialPokemon`** to display the special ability of each Pokémon, differentiating it from regular Pokémon. This allows for different behaviors based on the specific Pokémon type.
 
 ---
-
+<p align="center">
+   <img src="https://i.pinimg.com/originals/9f/1d/58/9f1d582d5a8045fec25f03530d73dd24.gif">
+   
 ## Interaction with the Program
 
 Below are the detailed interactions and possible outcomes when using the Pokémon Storage System:
@@ -109,5 +111,3 @@ Below are the detailed interactions and possible outcomes when using the Pokémo
 | **Exiting the System**                       | Ends the session with a farewell message: "Thank you for using the Pokémon PC! Have a great adventure, Trainer!"                                                        |
 
 ---
-<p align="center">
-   <img src="https://i.pinimg.com/originals/9f/1d/58/9f1d582d5a8045fec25f03530d73dd24.gif">
