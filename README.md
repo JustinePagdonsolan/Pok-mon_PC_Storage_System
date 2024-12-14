@@ -49,6 +49,9 @@ This project is aligned with **SDG 12: Responsible Consumption and Production**,
 | **Waste Minimization**     | The system encourages players to make thoughtful decisions about what Pokémon to store or withdraw, minimizing waste by using storage efficiently.     |
 | **Educational Value**      | The game helps children understand **sorting, managing, and reducing waste** in a fun and engaging way, teaching important life skills on sustainability and resource management. |
 
+<p align="center">
+   <img src= "https://static.tumblr.com/127d00a19811bf5d6c989d4ce391e370/45yz63s/qt1pe0gyc/tumblr_static_tumblr_static_4zgpa2d196gwwgos0k8gok4ok_focused_v3.gif">
+
 ---
 
 ## Instructions for Running the Program
