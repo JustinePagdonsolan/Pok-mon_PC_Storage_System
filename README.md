@@ -3,12 +3,26 @@
 <p align="center">
    <img src="https://static.vecteezy.com/system/resources/previews/027/127/571/non_2x/pokemon-logo-pokemon-icon-transparent-free-png.png" width="700" height="500"> <!-- Pokémon Logo -->
 
-## Overview:
+---
+
+## Table of Contents
+- [Overview](#overview)
+- [OOP Principles Applied](#oop-principles-applied)
+- [SDG Integration: SDG 12 - Responsible Consumption and Production](#sdg-integration-sdg-12---responsible-consumption-and-production)
+- [Instructions for Running the Program](#instructions-for-running-the-program)
+  - [What the Program Does](#what-the-program-does)
+- [How the Game Works](#how-the-game-works)
+- [Special Pokémon and Special Abilities](#special-pokémon-and-special-abilities)
+- [Interaction with the Program](#interaction-with-the-program)
+
+---
+
+## Overview
 The **Pokémon Storage System** is a console-based application that simulates a **Pokémon storage system**, allowing users to manage their Pokémon by depositing and withdrawing them into storage boxes. This project applies **Object-Oriented Programming (OOP)** principles and connects to **SDG 12: Responsible Consumption and Production**, promoting sustainable practices, responsible resource management, and waste reduction through an engaging Pokémon-themed interface.
 
 ---
 
-## OOP Principles Applied:
+## OOP Principles Applied
 This project demonstrates several key **Object-Oriented Programming (OOP)** principles:
 
 | **Principle**     | **Explanation**                                                                                                                                 |
@@ -20,6 +34,8 @@ This project demonstrates several key **Object-Oriented Programming (OOP)** prin
 
 <p align="center">
    <img src= "https://poketouch.files.wordpress.com/2019/05/eevee_sparkles_gif.gif">
+
+---
 
 ## SDG Integration: SDG 12 - Responsible Consumption and Production
 This project is aligned with **SDG 12: Responsible Consumption and Production**, which focuses on **sustainable resource management** and **minimizing waste**. The **Pokémon Storage System** encourages players to manage their Pokémon efficiently, limiting the number of Pokémon that can be stored in a box at once and ensuring no overuse of space. This mirrors the real-world concept of **managing finite resources** in a sustainable and responsible manner.
@@ -33,9 +49,9 @@ This project is aligned with **SDG 12: Responsible Consumption and Production**,
 
 ---
 
-## Instructions for Running the Program:
+## Instructions for Running the Program
 
-### What the Program Does:
+### What the Program Does
 The **Pokémon Storage System** allows players to manage their Pokémon through a **virtual Pokémon PC system**. The game is organized into three main actions: **Depositing Pokémon**, **Withdrawing Pokémon**, and **Managing Items**.
 
 <p align="center">
@@ -52,7 +68,7 @@ The **Pokémon Storage System** allows players to manage their Pokémon through 
 
 ---
 
-## How the Game Works:
+## How the Game Works
 
 | **Feature**               | **Description**                                                                 |
 |---------------------------|---------------------------------------------------------------------------------|
@@ -65,45 +81,20 @@ The **Pokémon Storage System** allows players to manage their Pokémon through 
 
 ---
 
-## Special Pokémon and Special Abilities:
+## Special Pokémon and Special Abilities
 In addition to basic Pokémon management, the system also demonstrates the use of **polymorphism** with the **`SpecialPokemon`** class. 
 
 - **`SpecialPokemon`** is a subclass that extends the base **`Pokemon`** class.
 - It introduces a unique attribute, the **special ability**, which can represent various special powers a Pokémon might possess (e.g., "Fire Blast", "Thunder Shock").
 - The **`toString`** method is overridden in **`SpecialPokemon`** to display the special ability of each Pokémon, differentiating it from regular Pokémon. This allows for different behaviors based on the specific Pokémon type.
 
-For example:
-- A **`SpecialPokemon`** with a special ability will show the ability in the output, making it clear that this Pokémon is unique compared to regular ones in the system.
-
 ---
 
-### Interaction with the Program:
-**Interaction with the system begins**:
-
-1. **User Input: Number of Pokémon in the Party**
-    - The program will prompt the user to input the number of Pokémon in their party (from 1 to 6).
-    - **Valid Input**: The user enters a valid number (1-6), and the program proceeds to prompt for details of each Pokémon.
-    - **Invalid Input**: If the input is outside this range (e.g., 0, 7, or non-numeric), the program will ask the user to "try again."
-
-2. **User Input: Pokémon Details (Name, Types, Level, Held Item)**
-    - For each Pokémon, the user will provide:
-      - Name
-      - Type(s)
-      - Level (1-100)
-      - Held item (if any)
-    - **Valid Input**: If valid types and levels are entered, the Pokémon is added to the party. If the Pokémon is holding an item, the user can specify it.
-    - **Invalid Input**: Invalid types or out-of-range levels will prompt the user to try again.
-
-3. **Main Menu Options**:
-    The user can interact with the following options in the main menu:
-    - **View Pokémon Storage**: Displays the contents of storage boxes (up to 2 Pokémon per box).
-    - **Deposit Pokémon**: Allows users to deposit a Pokémon from their party to storage.
-    - **Withdraw Pokémon**: Lets users withdraw Pokémon from the storage and add it back to the party.
-    - **Deposit Item**: Users can assign an item to a Pokémon and transfer it to a Pokémon in the storage boxes.
-    - **Withdraw Item**: Users can withdraw an item from a Pokémon in the storage and either assign it to a Pokémon in the party or discard it.
-    - **Exit**: Exits the program with a message thanking the user.
-
-4. **Special Pokémon Interaction (Polymorphism)**:
-    - If the user interacts with a **`SpecialPokemon`**, the special ability will be displayed, showcasing the use of polymorphism. This is done by overriding the `toString` method to include the special ability, allowing the Pokémon to display unique information.
-
----
+## Interaction with the Program
+| **Interaction**                             | **Details**                                                                                                                                                          |
+|---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **User Input: Number of Pokémon in Party**  | Prompts user for the number of Pokémon (1-6); invalid inputs trigger retry prompts.                                                                                 |
+| **Pokémon Details**                         | Collects Pokémon data including name, types, level, and held items. Invalid data prompts user for corrections.                                                      |
+| **Main Menu Options**                       | Users can view storage, deposit/withdraw Pokémon, or manage items. Each selection provides further prompts and checks for system constraints.                       |
+| **Special Pokémon Interaction**             | Displays unique special abilities for `SpecialPokemon` using polymorphism.                                                                                         |
+| **Exit Program**                            | Exits with a confirmation message: "Thank you for using the Pokémon PC! Have a great adventure, Trainer!"                                                           |
