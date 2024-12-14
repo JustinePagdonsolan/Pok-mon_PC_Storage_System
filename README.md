@@ -17,6 +17,7 @@ This project demonstrates several key **Object-Oriented Programming (OOP)** prin
 | **Polymorphism**  | The **`SpecialPokemon`** class demonstrates polymorphism by overriding the `toString` method, displaying a Pokémon’s unique special abilities.    |
 | **Abstraction**   | The **`Pokemon`** class is abstract, providing a blueprint for creating different types of Pokémon, focusing on their storage and management.         |
 
+<img src= "https://poketouch.files.wordpress.com/2019/05/eevee_sparkles_gif.gif">
 ---
 
 ## SDG Integration: SDG 12 - Responsible Consumption and Production
