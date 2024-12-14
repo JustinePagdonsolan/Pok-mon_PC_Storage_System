@@ -1,8 +1,7 @@
 # Pokémon Storage System - An Educational Game
 
 <p align="center">
-   <img src="https://static.vecteezy.com/system/resources/previews/027/127/571/non_2x/pokemon-logo-pokemon-icon-transparent-free-png.png" width="700" height="500"> <!-- Pokémon Logo -->
-
+   <img src="https://static.vecteezy.com/system/resources/previews/027/127/571/non_2x/pokemon-logo-pokemon-icon-transparent-free-png.png"> 
 ---
 
 ## Table of Contents
