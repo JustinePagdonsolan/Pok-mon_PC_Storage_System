@@ -30,12 +30,13 @@ This project demonstrates several key **Object-Oriented Programming (OOP)** prin
 | **Principle**     | **Explanation**                                                                                                                                 |
 |-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Encapsulation** | The **`Pokemon`** class encapsulates attributes such as name, types, level, and held items, while using methods (getters and setters) to control access. Declaring the fields of the Pokemon 
-| class as private and providing public getter and setter methods to access or modify these fields. These fields are encapsulated, and their direct modification is restricted outside the class. Access is |controlled through methods like getName(), setHeldItem(String item), and setTypes(String type2).
-
-The PokemonStorage class encapsulates the logic for storing Pokémon in boxes and provides methods like displayBoxContents(int boxIndex) to interact with the data. |
-| **Inheritance**   | The **`Pokemon`** class serves as a base for other Pokémon types, allowing for easy extension and customization for more specific behaviors.          |
+| class as private and providing public getter and setter methods to access or modify these fields. These fields are encapsulated, and their direct modification is restricted outside the class. Access is |controlled through methods like getName(), setHeldItem(String item), and setTypes(String type2).The PokemonStorage class encapsulates the logic for storing Pokémon in boxes and provides methods like 
+ displayBoxContents(int boxIndex) to interact with the data. |
+| **Inheritance**   | The **`Pokemon`** class serves as a base for other Pokémon types, allowing for easy extension and customization for more specific behaviors. The SpecialPokemon class extending the Pokemon class. The SpecialPokemon class inherits fields (name, types, level, heldItem) and methods (getName(), getLevel(), etc.) from the Pokemon class. It also adds its own specific behavior and field (specialAbility). This shows the relationship of a derived class (SpecialPokemon) inheriting properties and behavior from a base class (Pokemon).          |
 | **Polymorphism**  | Polymorphism is demonstrated in this system with the **`SpecialPokemon`** class, which extends the base **`Pokemon`** class. The `toString` method is overridden in the **`SpecialPokemon`** subclass to include a **special ability** attribute, which allows for different behaviors depending on the actual object type. |
-| **Abstraction**   | The **`Pokemon`** class is abstract, providing a blueprint for creating different types of Pokémon, focusing on their storage and management.         |
+| **Abstraction**   | The **`Pokemon`** class is abstract, providing a blueprint for creating different types of Pokémon, focusing on their storage and management.Abstract Class: The Pokemon class is declared as abstract. This signifies that Pokemon serves as a general blueprint for all Pokémon, but specific Pokémon (e.g., SpecialPokemon) need to provide additional functionality.
+You cannot instantiate the Pokemon class directly (e.g., new Pokemon()).
+Hiding complexity: Users of the PokemonPCSystem interact with methods like depositPokemon() or withdrawPokemon() without needing to know the internal details of how Pokémon are stored or retrieved.      |
 
 <p align="center">
    <img src= "https://poketouch.files.wordpress.com/2019/05/eevee_sparkles_gif.gif">
