@@ -17,7 +17,8 @@ This project demonstrates several key **Object-Oriented Programming (OOP)** prin
 | **Polymorphism**  | The **`SpecialPokemon`** class demonstrates polymorphism by overriding the `toString` method, displaying a Pokémon’s unique special abilities.    |
 | **Abstraction**   | The **`Pokemon`** class is abstract, providing a blueprint for creating different types of Pokémon, focusing on their storage and management.         |
 
-<img src= "https://poketouch.files.wordpress.com/2019/05/eevee_sparkles_gif.gif">
+<p align="center">
+   <img src= "https://poketouch.files.wordpress.com/2019/05/eevee_sparkles_gif.gif">
 
 ## SDG Integration: SDG 12 - Responsible Consumption and Production
 This project is aligned with **SDG 12: Responsible Consumption and Production**, which focuses on **sustainable resource management** and **minimizing waste**. The **Pokémon Storage System** encourages players to manage their Pokémon efficiently, limiting the number of Pokémon that can be stored in a box at once and ensuring no overuse of space. This mirrors the real-world concept of **managing finite resources** in a sustainable and responsible manner.
@@ -36,7 +37,8 @@ This project is aligned with **SDG 12: Responsible Consumption and Production**,
 ### What the Program Does:
 The **Pokémon Storage System** allows players to manage their Pokémon through a **virtual Pokémon PC system**. The game is organized into three main actions: **Depositing Pokémon**, **Withdrawing Pokémon**, and **Managing Items**.
 
-<img src="https://pngimg.com/uploads/pokeball/pokeball_PNG29.png" width="500" height="500">  <!-- Pokéball Icon -->
+<p align="center">
+   <img src="https://pngimg.com/uploads/pokeball/pokeball_PNG29.png" width="500" height="500">  <!-- Pokéball Icon -->
 
 | **Action**                | **Description**                                                                                           |
 |---------------------------|-----------------------------------------------------------------------------------------------------------|
@@ -74,6 +76,7 @@ The **Pokémon Storage System** allows players to manage their Pokémon through 
 | **Depositing & Withdrawing Pokémon** | You can deposit and withdraw Pokémon from your party into the storage system while maintaining balance and organization. |
 | **Item Management**       | Items can be assigned to Pokémon, and the game allows swapping items between Pokémon in your party and storage, emphasizing efficient resource use. |
 
-<img src="https://pa1.narvii.com/6201/fac18f22f6333faa69d85712e83266dedaa504f0_hq.gif">  <!-- Pokémon Storage Animation -->
+<p align="center">
+   <img src="https://pa1.narvii.com/6201/fac18f22f6333faa69d85712e83266dedaa504f0_hq.gif">  <!-- Pokémon Storage Animation -->
 
 ---
