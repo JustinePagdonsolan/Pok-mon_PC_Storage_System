@@ -51,17 +51,8 @@ The **Pokémon Storage System** allows players to manage their Pokémon through 
 
 ---
 
-### Steps to Run the Program:
-1. **Clone the repository**:
-   Clone the project repository to your local machine using Git:
-
-2. **Compile the program**:
-   Open your terminal/command prompt and navigate to the project directory. Use the following command to compile the program:
-
-3. **Run the program**:
-   After compilation, run the program with:
-
-4. **Interact with the system**:
+### Interaction with the program:
+1. **Interaction with the system begins**:
    - The program will prompt you to input the number of Pokémon in your party.
    - After that, you can perform actions such as depositing and withdrawing Pokémon and items into/from the Pokémon PC system.
    - You can navigate through the menu using the number options provided and follow the prompts to manage your Pokémon storage.
