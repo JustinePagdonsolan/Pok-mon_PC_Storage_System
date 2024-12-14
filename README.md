@@ -1,6 +1,6 @@
 # Pokémon Storage System - An Educational Game
 
-<img src="https://static.vecteezy.com/system/resources/previews/027/127/571/non_2x/pokemon-logo-pokemon-icon-transparent-free-png.png" width="1000" height="150"> <!-- Pokémon Logo -->
+<img src="https://static.vecteezy.com/system/resources/previews/027/127/571/non_2x/pokemon-logo-pokemon-icon-transparent-free-png.png" width="1000" height="500"> <!-- Pokémon Logo -->
 
 ## Overview:
 The **Pokémon Storage System** is a console-based application that simulates a **Pokémon storage system**, allowing users to manage their Pokémon by depositing and withdrawing them into storage boxes. This project applies **Object-Oriented Programming (OOP)** principles and connects to **SDG 12: Responsible Consumption and Production**, promoting sustainable practices, responsible resource management, and waste reduction through an engaging Pokémon-themed interface.
