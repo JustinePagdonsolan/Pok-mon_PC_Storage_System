@@ -38,7 +38,7 @@ This project is aligned with **SDG 12: Responsible Consumption and Production**,
 The **Pokémon Storage System** allows players to manage their Pokémon through a **virtual Pokémon PC system**. The game is organized into three main actions: **Depositing Pokémon**, **Withdrawing Pokémon**, and **Managing Items**.
 
 <p align="center">
-   <img src="https://pngimg.com/uploads/pokeball/pokeball_PNG29.png" width="500" height="500">  <!-- Pokéball Icon -->
+   <img src="https://pngimg.com/uploads/pokeball/pokeball_PNG29.png" width="250" height="250">  <!-- Pokéball Icon -->
 
 | **Action**                | **Description**                                                                                           |
 |---------------------------|-----------------------------------------------------------------------------------------------------------|
