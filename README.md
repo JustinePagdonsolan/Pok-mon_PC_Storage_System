@@ -91,10 +91,19 @@ In addition to basic Pokémon management, the system also demonstrates the use o
 ---
 
 ## Interaction with the Program
-| **Interaction**                             | **Details**                                                                                                                                                          |
-|---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **User Input: Number of Pokémon in Party**  | Prompts user for the number of Pokémon (1-6); invalid inputs trigger retry prompts.                                                                                 |
-| **Pokémon Details**                         | Collects Pokémon data including name, types, level, and held items. Invalid data prompts user for corrections.                                                      |
-| **Main Menu Options**                       | Users can view storage, deposit/withdraw Pokémon, or manage items. Each selection provides further prompts and checks for system constraints.                       |
-| **Special Pokémon Interaction**             | Displays unique special abilities for `SpecialPokemon` using polymorphism.                                                                                         |
-| **Exit Program**                            | Exits with a confirmation message: "Thank you for using the Pokémon PC! Have a great adventure, Trainer!"                                                           |
+
+Below are the detailed interactions and possible outcomes when using the Pokémon Storage System:
+
+| **Interaction**                              | **Description**                                                                                                                                                           |
+|----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Number of Pokémon in Party**               | Prompts user to enter how many Pokémon are in their party (1-6). Invalid inputs trigger retry prompts.                                                                  |
+| **Entering Pokémon Details**                 | Collects Pokémon details such as name, type(s), level, and held item. Ensures validation for types and levels, prompting corrections for invalid inputs.                 |
+| **Viewing Pokémon Storage**                  | Displays the contents of each storage box. Shows details of each Pokémon or displays "No Pokémon in this box" if the box is empty.                                      |
+| **Depositing Pokémon**                       | Allows the user to deposit a Pokémon from their party into a storage box. Enforces box capacity limits (2 Pokémon per box) and validates inputs.                         |
+| **Withdrawing Pokémon**                      | Enables withdrawal of Pokémon from a box to the party. Prevents withdrawal if the party already has 6 Pokémon or if the selected box is empty.                          |
+| **Depositing Items**                         | Transfers an item from a Pokémon in the party to one in storage. Items are swapped if the storage Pokémon already holds an item, ensuring efficient item management.     |
+| **Withdrawing Items**                        | Lets the user withdraw an item from a Pokémon in storage. Items can be reassigned to a party Pokémon or discarded, with swap functionality if a Pokémon is already holding an item. |
+| **Special Pokémon Interaction**              | Displays special abilities of `SpecialPokemon` using polymorphism. Differentiates them from regular Pokémon through unique attributes.                                  |
+| **Exiting the System**                       | Ends the session with a farewell message: "Thank you for using the Pokémon PC! Have a great adventure, Trainer!"                                                        |
+
+---
