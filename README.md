@@ -52,98 +52,6 @@ The **Pokémon Storage System** allows players to manage their Pokémon through 
 
 ---
 
-### Interaction with the program:
-**Interaction with the system begins**:
-Upon starting the program, the user will interact with the system through a series of menus and prompts. Below are the possible scenarios and outcomes based on user input and decisions.
-
-User Input: Number of Pokémon in the Party
-
-Scenario: The program will ask how many Pokémon the user has in their party (from 1 to 6).
-Possible Outcome:
-If the input is between 1 and 6, the program continues, and the user is prompted to enter details for each Pokémon.
-If the input is outside this range (e.g., 0, 7, or a non-numeric value), the user is prompted to "try again" until a valid number is entered.
-User Input: Pokémon Details (Name, Types, Level, Held Item)
-
-Scenario: For each Pokémon, the user will provide the name, type(s), level, and held item.
-Possible Outcomes:
-If valid types are entered (e.g., "fire", "water"), and the level is within the valid range (1-100), the Pokémon is successfully added to the party.
-If the types entered are invalid (e.g., "dragonfly"), the system will ask the user to try again.
-If the level is out of range or non-numeric, the program will prompt the user to enter a valid level.
-If the user selects that the Pokémon is holding an item, the program will prompt for a valid item name (no numbers or special characters allowed).
-If the Pokémon is not holding an item, the program will assign "None" to the held item.
-Main Menu: Options for Interactions
-
-Scenario: Once the party is initialized, the main menu will be displayed, offering the following options:
-View Pokémon Storage
-Deposit Pokémon
-Withdraw Pokémon
-Deposit Item
-Withdraw Item
-Exit PC
-Option 1: View Pokémon Storage
-
-Scenario: The user chooses to view the contents of the storage.
-Possible Outcome:
-The system displays the current contents of the 3 storage boxes (each box can hold up to 2 Pokémon).
-If a box is empty, it will display "No Pokémon in this box."
-If there are Pokémon in the box, their details (name, level, types, held item) will be shown.
-Option 2: Deposit Pokémon
-
-Scenario: The user decides to deposit a Pokémon from their party into one of the storage boxes.
-Possible Outcomes:
-The system will display a list of Pokémon in the user's party.
-The user selects which Pokémon to deposit (if the party size is 2 or more).
-The system will ask which box to deposit the selected Pokémon into (1-3).
-If a box is full (i.e., already has 2 Pokémon), the program will prompt the user to select another box or go back to the menu.
-The Pokémon will be added to the selected box, and the program will confirm the deposit.
-If the user selects "Go Back", the program will return to the main menu.
-Option 3: Withdraw Pokémon
-
-Scenario: The user chooses to withdraw a Pokémon from one of the storage boxes and add it back to their party.
-Possible Outcomes:
-The system will prompt the user to choose a box (1-3).
-If the box is empty, the program will notify the user and prompt them to choose another box or go back.
-If there are Pokémon in the selected box, the user can choose which Pokémon to withdraw.
-If the party already has 6 Pokémon, the system will not allow the user to withdraw any more Pokémon.
-After successful withdrawal, the selected Pokémon will be added to the party, and the program will confirm the withdrawal.
-If the user selects "Go Back", the program will return to the box selection.
-Option 4: Deposit Item
-
-Scenario: The user chooses to deposit an item to a Pokémon.
-Possible Outcomes:
-The user is prompted to select a Pokémon from their party that is holding an item.
-Then, the user is asked to choose a Pokémon in the storage box to assign the item to.
-If the selected Pokémon in the box is holding an item, the system will ask if the user wants to swap the items or not.
-The items will either be swapped or the item will be assigned to the selected Pokémon, depending on the user's choice.
-If the user selects "Go Back", the program will return to the main menu.
-Option 5: Withdraw Item
-
-Scenario: The user chooses to withdraw an item from a Pokémon in one of the storage boxes.
-Possible Outcomes:
-The user is prompted to select a box (1-3).
-If the box is empty, the program will notify the user and prompt them to choose another box or go back.
-If the box contains Pokémon, the user selects which Pokémon's item to withdraw.
-If the selected Pokémon is not holding an item, the program will notify the user.
-Once the item is withdrawn, the system will ask the user where to place the item:
-Option 1: Assign the item to a Pokémon in the party (swapping items if the Pokémon is already holding something).
-Option 2: Discard the item.
-The system will confirm the action taken (item swapped or discarded).
-If the user selects "Go Back", the program will return to the main menu.
-Option 6: Exit PC
-
-Scenario: The user decides to exit the program.
-Possible Outcome:
-The program will display a message saying "Thank you for using the Pokémon PC! Have a great adventure, Trainer!"
-The program will exit, and the user will be returned to their terminal or command prompt.
-Special Pokémon Interaction (Polymorphism)
-
-Scenario: The user interacts with SpecialPokemon objects, which are subclasses of the base Pokemon class.
-Possible Outcomes:
-When a SpecialPokemon is created, it includes a special ability attribute that is unique to that Pokémon.
-Polymorphism: The toString method is overridden in SpecialPokemon to display the special ability along with the usual Pokémon details (name, level, types, and held item).
-If the user views or interacts with a SpecialPokemon, the system will print the special ability in the details, showcasing polymorphism and how it behaves differently for SpecialPokemon instances compared to regular Pokemon objects.
----
-
 ## How the Game Works:
 
 | **Feature**               | **Description**                                                                 |
@@ -166,5 +74,36 @@ In addition to basic Pokémon management, the system also demonstrates the use o
 
 For example:
 - A **`SpecialPokemon`** with a special ability will show the ability in the output, making it clear that this Pokémon is unique compared to regular ones in the system.
+
+---
+
+### Interaction with the Program:
+**Interaction with the system begins**:
+
+1. **User Input: Number of Pokémon in the Party**
+    - The program will prompt the user to input the number of Pokémon in their party (from 1 to 6).
+    - **Valid Input**: The user enters a valid number (1-6), and the program proceeds to prompt for details of each Pokémon.
+    - **Invalid Input**: If the input is outside this range (e.g., 0, 7, or non-numeric), the program will ask the user to "try again."
+
+2. **User Input: Pokémon Details (Name, Types, Level, Held Item)**
+    - For each Pokémon, the user will provide:
+      - Name
+      - Type(s)
+      - Level (1-100)
+      - Held item (if any)
+    - **Valid Input**: If valid types and levels are entered, the Pokémon is added to the party. If the Pokémon is holding an item, the user can specify it.
+    - **Invalid Input**: Invalid types or out-of-range levels will prompt the user to try again.
+
+3. **Main Menu Options**:
+    The user can interact with the following options in the main menu:
+    - **View Pokémon Storage**: Displays the contents of storage boxes (up to 2 Pokémon per box).
+    - **Deposit Pokémon**: Allows users to deposit a Pokémon from their party to storage.
+    - **Withdraw Pokémon**: Lets users withdraw Pokémon from the storage and add it back to the party.
+    - **Deposit Item**: Users can assign an item to a Pokémon and transfer it to a Pokémon in the storage boxes.
+    - **Withdraw Item**: Users can withdraw an item from a Pokémon in the storage and either assign it to a Pokémon in the party or discard it.
+    - **Exit**: Exits the program with a message thanking the user.
+
+4. **Special Pokémon Interaction (Polymorphism)**:
+    - If the user interacts with a **`SpecialPokemon`**, the special ability will be displayed, showcasing the use of polymorphism. This is done by overriding the `toString` method to include the special ability, allowing the Pokémon to display unique information.
 
 ---
