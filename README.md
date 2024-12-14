@@ -1,6 +1,6 @@
 # Pokémon Storage System - An Educational Game
 
-![Pokémon Logo](https://static.vecteezy.com/system/resources/previews/027/127/571/non_2x/pokemon-logo-pokemon-icon-transparent-free-png.png)  <!-- Pokémon Logo -->
+![Pokémon Logo](https://static.vecteezy.com/system/resources/previews/027/127/571/non_2x/pokemon-logo-pokemon-icon-transparent-free-png.png =150x150)  <!-- Pokémon Logo -->
 
 ## Overview:
 The **Pokémon Storage System** is a console-based application that simulates a **Pokémon storage system**, allowing users to manage their Pokémon by depositing and withdrawing them into storage boxes. This project applies **Object-Oriented Programming (OOP)** principles and connects to **SDG 12: Responsible Consumption and Production**, promoting sustainable practices, responsible resource management, and waste reduction through an engaging Pokémon-themed interface.
@@ -18,7 +18,8 @@ This project demonstrates several key **Object-Oriented Programming (OOP)** prin
    - The **`Pokemon`** class serves as a base class for different types of Pokémon. It allows future extensions where different Pokémon types could inherit from this base class, each with unique behaviors (if needed).
 
 ### 3. **Polymorphism**:
-   - While polymorphism is not directly utilized in this implementation, the **`toString`** method in the **`Pokemon`** class could be overridden in subclasses if more detailed Pokémon types were introduced in the future.
+   - Polymorphism is demonstrated in this system with the **`SpecialPokemon`** class, which extends the base **`Pokemon`** class. The `toString` method is overridden in the **`SpecialPokemon`** subclass to include a **special ability** attribute, which allows for different behaviors depending on the actual object type.
+   - For example, when printing out the Pokémon details, the system will display the specific information based on whether the Pokémon is of a general type or a special type with additional attributes.
 
 ### 4. **Abstraction**:
    - The **`Pokemon`** class is abstract, providing a blueprint for specific Pokémon types. This allows for simplified and generalized Pokémon storage and management, which could be expanded upon for more complex systems.
@@ -41,7 +42,7 @@ Key ways this project integrates SDG 12:
 ### What the Program Does:
 The **Pokémon Storage System** allows players to manage their Pokémon through a **virtual Pokémon PC system**. The game is organized into three main actions: **Depositing Pokémon**, **Withdrawing Pokémon**, and **Managing Items**.
 
-![Pokéball Icon](https://pngimg.com/uploads/pokeball/pokeball_PNG29.png)  <!-- Pokéball Icon -->
+![Pokéball Icon](https://pngimg.com/uploads/pokeball/pokeball_PNG29.png =50x50)  <!-- Pokéball Icon -->
 
 - **View Pokémon Storage**: Displays the current contents of the Pokémon boxes (up to 2 Pokémon per box).
   
@@ -77,11 +78,6 @@ After compilation, run the program with:
 - **Depositing and Withdrawing Pokémon**: You can deposit and withdraw Pokémon from your party into the storage system while maintaining balance and organization.
 - **Item Management**: Items can be assigned to Pokémon, and the game allows swapping items between Pokémon in your party and storage, emphasizing efficient resource use.
 
-![Pokémon Storage Boxes](https://pa1.narvii.com/6201/fac18f22f6333faa69d85712e83266dedaa504f0_hq.gif)  <!-- Pokémon Storage Animation -->
-
----
-
-## Conclusion:
-This **Pokémon Storage System** demonstrates the principles of **responsible resource management** and **waste reduction**, drawing parallels to **SDG 12: Responsible Consumption and Production**. The game serves as both an **educational tool** and an **engaging experience**, allowing players to explore the concepts of sustainable practices through the fun, familiar world of Pokémon.
+![Pokémon Storage Boxes](https://pa1.narvii.com/6201/fac18f22f6333faa69d85712e83266dedaa504f0_hq.gif =100x100)  <!-- Pokémon Storage Animation -->
 
 ---
