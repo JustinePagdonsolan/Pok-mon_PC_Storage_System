@@ -52,10 +52,10 @@ The **Pokémon Storage System** allows players to manage their Pokémon through 
 ---
 
 ### Interaction with the program:
-1. **Interaction with the system begins**:
-   - The program will prompt you to input the number of Pokémon in your party.
-   - After that, you can perform actions such as depositing and withdrawing Pokémon and items into/from the Pokémon PC system.
-   - You can navigate through the menu using the number options provided and follow the prompts to manage your Pokémon storage.
+**Interaction with the system begins**:
+1. The program will prompt you to input the number of Pokémon in your party.
+2. After that, you can perform actions such as depositing and withdrawing Pokémon and items into/from the Pokémon PC system.
+3. You can navigate through the menu using the number options provided and follow the prompts to manage your Pokémon storage.
 
 ---
 
