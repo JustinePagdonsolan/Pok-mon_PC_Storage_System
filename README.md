@@ -18,7 +18,6 @@ This project demonstrates several key **Object-Oriented Programming (OOP)** prin
 | **Abstraction**   | The **`Pokemon`** class is abstract, providing a blueprint for creating different types of Pokémon, focusing on their storage and management.         |
 
 <img src= "https://poketouch.files.wordpress.com/2019/05/eevee_sparkles_gif.gif">
----
 
 ## SDG Integration: SDG 12 - Responsible Consumption and Production
 This project is aligned with **SDG 12: Responsible Consumption and Production**, which focuses on **sustainable resource management** and **minimizing waste**. The **Pokémon Storage System** encourages players to manage their Pokémon efficiently, limiting the number of Pokémon that can be stored in a box at once and ensuring no overuse of space. This mirrors the real-world concept of **managing finite resources** in a sustainable and responsible manner.
