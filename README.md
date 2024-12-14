@@ -85,10 +85,3 @@ After compilation, run the program with:
 This **Pokémon Storage System** demonstrates the principles of **responsible resource management** and **waste reduction**, drawing parallels to **SDG 12: Responsible Consumption and Production**. The game serves as both an **educational tool** and an **engaging experience**, allowing players to explore the concepts of sustainable practices through the fun, familiar world of Pokémon.
 
 ---
-
-### Pokémon-Related Visual Designs Used:
-1. **Pokémon Logo**: Added at the top to set the tone of the Pokémon theme.
-2. **Pokéball Icon**: To visually represent actions related to Pokémon management.
-3. **Pokémon Storage Boxes Animation**: To give the users a fun, dynamic visual related to managing storage boxes in the game.
-
----
