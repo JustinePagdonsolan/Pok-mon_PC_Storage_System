@@ -29,7 +29,10 @@ This project demonstrates several key **Object-Oriented Programming (OOP)** prin
 
 | **Principle**     | **Explanation**                                                                                                                                 |
 |-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Encapsulation** | The **`Pokemon`** class encapsulates attributes such as name, types, level, and held items, while using methods (getters and setters) to control access. |
+| **Encapsulation** | The **`Pokemon`** class encapsulates attributes such as name, types, level, and held items, while using methods (getters and setters) to control access. Declaring the fields of the Pokemon 
+| class as private and providing public getter and setter methods to access or modify these fields. These fields are encapsulated, and their direct modification is restricted outside the class. Access is |controlled through methods like getName(), setHeldItem(String item), and setTypes(String type2).
+
+The PokemonStorage class encapsulates the logic for storing Pokémon in boxes and provides methods like displayBoxContents(int boxIndex) to interact with the data. |
 | **Inheritance**   | The **`Pokemon`** class serves as a base for other Pokémon types, allowing for easy extension and customization for more specific behaviors.          |
 | **Polymorphism**  | Polymorphism is demonstrated in this system with the **`SpecialPokemon`** class, which extends the base **`Pokemon`** class. The `toString` method is overridden in the **`SpecialPokemon`** subclass to include a **special ability** attribute, which allows for different behaviors depending on the actual object type. |
 | **Abstraction**   | The **`Pokemon`** class is abstract, providing a blueprint for creating different types of Pokémon, focusing on their storage and management.         |
